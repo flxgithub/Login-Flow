@@ -1,12 +1,12 @@
 # Summary
 
-* [Introduction](README.md)
-* [Getting Started](getting-started.md)
-* [Basics](basics.md)
-* [Advanced](advanced.md)
-* [Reference](reference.md)
+* [Introduction\(简介\)](README.md)
+* [Getting Started\(快速上手\)](getting-started.md)
+* [Basics\(入门篇\)](basics.md)
+* [Advanced\(\(进阶篇\)](advanced.md)
+* [Reference\(参考\)](reference.md)
   * [Facebook API](reference/facebook-api.md)
-* [Recipes](recipes.md)
-* [Appendix](appendix.md)
-* [Troubleshooting](troubleshooting.md)
+* [Recipes\(最佳实践\)](recipes.md)
+* [Appendix\(附录\)](appendix.md)
+* [Troubleshooting\(故障处理\)](troubleshooting.md)
 
