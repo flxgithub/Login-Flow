@@ -9,7 +9,7 @@ This is because there is no one in this world that will use a smart phone withou
 
 ### Contents
 
-{% method %}
+
 
 * [Getting Started](/getting-started.md)
 * [Basics](/basics.md)
@@ -26,7 +26,7 @@ This is because there is no one in this world that will use a smart phone withou
 * [Appendix](/appendix.md)
 * [Troubleshooting](/troubleshooting.md)
 
-{% endmethod %}
+
 
 
 
