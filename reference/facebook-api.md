@@ -81,13 +81,13 @@ If the users aren't logged into Facebook, they'll first be prompted to login and
 
 There are two ways to log someone in:
 
-* ##### Use the login button
+* **Use the login button**
 
 It's easy to include the Login Button into the page. You can just get the basic button code [here](https://developers.facebook.com/docs/facebook-login/web#loginbutton). For information on customizing the Login Button, see [this](https://developers.facebook.com/docs/facebook-login/web/login-button).
 
 or you can log people in using
 
-* ##### The Login Dialog from the JavaScript SDK
+* **The Login Dialog from the JavaScript SDK**
 
 For apps that wanted to use their own button, you can invoke the Login Dialog with a simple call to `FB.login()`
 
@@ -139,16 +139,9 @@ FB.logout(function(response){
 
 **Additionally, logging out is not the same as revoking login permission \(removing previously granted authentication\), which can be performed separately. Because of this your app should be built in such a way that it doesn't automatically force people who have logged out back to the Login dialog.**
 
-
-
 ### Reference Docs
 
-
 * [Login Dialog](https://developers.facebook.com/docs/reference/javascript/FB.login/v2.8)
-
-
-
-
 
 ### Full Code Example
 
