@@ -1,6 +1,6 @@
 # Login Flow
 
-Without a doubt, passwords are used for virtually everything we do online. Passwords protects our identities on websites, email accounts and more. Besides that, they are also used for bank transactions and making secure purchases. As time passes, more and more types of authentication and authorization method arises for example social media logins. Thus, for our case, we will have two types of login, the original login method \(username & password\) or login using social medias \(Facebook, Google, Weibo, and Wechat\).
+Without a doubt, passwords are used for virtually everything we do online. Passwords protects our identities on websites, email accounts and more. Besides that, they are also used for bank transactions and making secure purchases. As time passes, more and more types of authentication and authorization method arises for example social media logins. Thus, for our case, we will have two types of login, the original login method \(username & password\) or login using social medias \(Facebook, Google, Weibo, and Wechat\).  
 1
 
 ### Why social media login?
@@ -9,24 +9,20 @@ This is because there is no one in this world that will use a smart phone withou
 
 ### Contents
 
-
-
 * [Getting Started](/getting-started.md)
 * [Basics](/basics.md)
- * [Web UI](/basics/web-ui.md)
- * [Mobile Web UI](/basics/mobile-web-ui.md)
- * [Usecase](/basics/usecase.md)
+  * [Web UI](/basics/web-ui.md)
+  * [Mobile Web UI](/basics/mobile-web-ui.md)
+  * [Usecase](/basics/usecase.md)
 * [Advanced](/advanced.md)
 * [Reference](/reference.md)
- * [Facebook API](/reference/facebook-api.md)
- * [Google API](/reference/google-api.md)
- * [Wechat API](/reference/wechat-api.md)
- * [Weibo API](/reference/weibo-api.md)
+  * [Facebook API](/reference/facebook-api.md)
+  * [Google API](/reference/google-api.md)
+  * [Wechat API](/reference/wechat-api.md)
+  * [Weibo API](/reference/weibo-api.md)
 * [Recipes](/recipes.md)
 * [Appendix](/appendix.md)
 * [Troubleshooting](/troubleshooting.md)
-
-
 
 
 
