@@ -141,6 +141,15 @@ FB.logout(function(response){
 
 
 
+### Reference Docs
+
+
+* [Login Dialog](https://developers.facebook.com/docs/reference/javascript/FB.login/v2.8)
+
+
+
+
+
 ### Full Code Example
 
 This code will load and initialize the JavaScript SDK in your HTML page. Use your app ID where indicated.
@@ -249,10 +258,6 @@ This code will load and initialize the JavaScript SDK in your HTML page. Use you
 </body>
 </html>
 ```
-
-
-
-
 
 
 
