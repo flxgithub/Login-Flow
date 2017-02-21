@@ -8,68 +8,7 @@ The following snippet of code will give the basic version of the SDK where the o
 
 It should be inserted directly after the opening`<body>`tag on each page you want to load it.
 
-{% method %}
 
-```
-<
-script
->
-window
-.fbAsyncInit = 
-function
-(
-) 
-{
-        FB.init({
-            appId : 
-'your-app-id'
-,
-            xfbml : 
-true
-,
-            version : 
-'v2.8'
-
-        });
-        FB.AppEvents.logPageView();
-    };
-
-    (
-function
-(
-d, s, id
-)
-{
-        
-var
- js, fjs = d.getElementsByTagName(s)[
-0
-];
-        
-if
- (d.getElementById(id)) {
-return
-;}
-        js = d.createElement(s); js.id = id;
-        js.src = 
-"//connect.facebook.net/en_US/sdk.js"
-;
-        fjs.parentNode.insertBefore(js, fjs);
-    }(
-document
-, 
-'script'
-, 
-'facebook-jssdk'
-));
-
-<
-/
-script
->
-```
-
-{% endmethod %}
 
 This code will load and initialize the SDK. The`your-app-id`must be replaced with the ID of your own Facebook App. You can find this ID [here](https://developers.facebook.com/apps).
 
