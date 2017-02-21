@@ -81,10 +81,65 @@ If the users aren't logged into Facebook, they'll first be prompted to login and
 
 There are two ways to log someone in:
 
-* #### Use the Login Button
+* ##### Use the login button
 
 It's easy to include the Login Button into the page. You can just get the basic button code [here](https://developers.facebook.com/docs/facebook-login/web#loginbutton). For information on customizing the Login Button, see [this](https://developers.facebook.com/docs/facebook-login/web/login-button).
 
+or you can log people in using
+
+* ##### The Login Dialog from the JavaScript SDK
+
+For apps that wanted to use their own button, you can invoke the Login Dialog with a simple call to `FB.login()`
+
+As noted in the references docs down below, it results in a popup window showing the Login dialog, and therefore should only be invoked as a result of someone clicking an HTML button \(so that the popup isn't blocked by browsers\).
+
+There's an optional `scope `parameter that can be passed along with the function call that is a comma separated list of [permissions](https://developers.facebook.com/docs/facebook-login/permissions) to request from the person using the app. Here's an example of the code
+
+```js
+FB.login(function(response){
+    //handle the response
+}, {scope: 'public_profile,email'});
+```
+
+##### Handle Login Dialog Response
+
+At this point in the login flow, your app displays the login dialog, which gives you the choice of whether to cancel or to enable the app to access their data.
+
+Whatever choice people make, the browser returns to the app and response data indicating whether they're connected or cancelled is sent to your app. When you uses the JavaScript SDK, it returns an `authResponse` object to the callback specified when you made the `FB.login()` call:
+
+This response can be detected and handled within the `FB.login` call, like the example below:
+
+```js
+FB.login(function(response) {
+    if (response.status === 'connected'){
+        
+    } else if (response.status === 'not_authorized') {
+    
+    } else {
+    
+    }
+});
+```
+
+
+
+### 3. Log People Out
+
+You can log people out of your app by attaching the JavaScript SDK function `FB.logout` to a button or a link, as follows:
+
+```js
+FB.logout(function(response){
+    //user is now logged out
+});
+```
+
+**Note: This function call may also log the person out of Facebook. **Consider the 3 scenarios below:
+
+1. A person logs into Facebook, then logs into your app. Upon logging out from your app, the person is still logged into Facebook.
+2. A person logs into your app and into Facebook as part of your app's login flow. Upon logging out from your app, the user is also logged out of Facebook.
+3. A person logs into another app and into Facebook as part of the other app's login flow, then logs into your app. Upon logging out from either app, the user is logged out of Facebook.
+
+**Additionally, logging out is not the same as revoking login permission \(removing previously granted authentication\), which can be performed separately. Because of this your app should be built in such a way that it doesn't automatically force people who have logged out back to the Login dialog.**
 
 
 
