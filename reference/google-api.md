@@ -34,7 +34,3 @@ Before integrating Google Sign-In into the website, it's a must that we  have a 
 
 Now we can proceed to adding Google Sign-In to the website. [Add Google Sign-In](https://developers.google.com/identity/sign-in/web/sign-in)
 
-
-
-
-
