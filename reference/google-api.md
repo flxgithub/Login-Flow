@@ -32,5 +32,5 @@ Before integrating Google Sign-In into the website, it's a must that we  have a 
 
 6. From the resulting **OAuth client dialog box, **copy the **Client ID. **The Client ID lets the app access enabled Google APIs.
 
-Now we can proceed to adding Google Sign-In to the website. \[Add Google Sign-In\]\(https://developers.google.com/identity/sign-in/web/sign-in\)
+Now we can proceed to adding Google Sign-In to the website. [Add Google Sign-In](https://developers.google.com/identity/sign-in/web/sign-in)
 
