@@ -7,13 +7,13 @@ Before integrating Google Sign-In into the website, it's a must that we  have a 
 1. Go to the [Google API Console](https://console.developers.google.com/projectselector/apis/library).
 2. From the project drop-down, select an existing project, or create a new one by selecting the **Create a new project.**
 
-   1. **Note: Use a single project to hold all platform instances of your app \(Android, iOS, web, etc.\), each with a different Client ID.**
+   1. **Note: Use a single project to hold all platform instances of your app \(Android, iOS, web, etc.\), each with a different Client ID**.
 
    2. To know more about how to manage projects in the console, click [here](https://support.google.com/cloud/answer/6158853).
 
-3. In the sidebar under "API Manager", select **Credentials, **then select the **OAuth consent screen **tab.
+3. In the sidebar under "API Manager", select **Credentials**,** **then select the **OAuth consent screen **tab.
 
-   1. Choose an **Email Address, **specify a **Product Name, **and press **Save.**
+   1. Choose an **Email Address**,** **specify a **Product Name**, and press **Save**.
 
 4. In the **Credentials** tab, select the **New credentials **drop-down list, and choose **OAuth client ID.**
 
