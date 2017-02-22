@@ -11,13 +11,13 @@ Before integrating Google Sign-In into the website, it's a must that we  have a 
 
    2. To know more about how to manage projects in the console, click [here](https://support.google.com/cloud/answer/6158853).
 
-3. In the sidebar under "API Manager", select **Credentials**,** **then select the **OAuth consent screen **tab.
+3. In the sidebar under "API Manager", select **Credentials**, then select the **OAuth consent screen **tab.
 
-   1. Choose an **Email Address**,** **specify a **Product Name**, and press **Save**.
+   1. Choose an **Email Address**, specify a **Product Name**, and press **Save**.
 
 4. In the **Credentials** tab, select the **New credentials  **drop-down list, and choose **OAuth client ID.**
 
-5. Under **Application type, **select **Web application. **Register the origins from which your app is allowed to access the Google APIs, as follows. An origin is a unique combination of protocol, hostname, and port.
+5. Under **Application type**, select **Web application**. Register the origins from which your app is allowed to access the Google APIs, as follows. An origin is a unique combination of protocol, hostname, and port.
 
    1. In the **Authorized JavaScript origins **field, enter the origin for the app. Multiple origins can be entered for the app to run on different protocols, domains, or subdomains. **Wildcards is extremely prohibited. **In the example below, the second URL could be a production URL.
 
@@ -30,7 +30,11 @@ Before integrating Google Sign-In into the website, it's a must that we  have a 
 
    3. Press the **Create **button.
 
-6. From the resulting **OAuth client dialog box, **copy the **Client ID. **The Client ID lets the app access enabled Google APIs.
+6. From the resulting **OAuth client dialog box**, copy the **Client ID. **The Client ID lets the app access enabled Google APIs.
 
 Now we can proceed to adding Google Sign-In to the website. [Add Google Sign-In](https://developers.google.com/identity/sign-in/web/sign-in)
+
+
+
+
 
