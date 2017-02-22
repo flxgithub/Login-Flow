@@ -36,9 +36,6 @@ Now we can proceed to adding Google Sign-In to the website. [Add Google Sign-In]
 
 
 
-{%method%}
 
 
-
-{% endmethod %}
 
