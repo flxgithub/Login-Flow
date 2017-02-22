@@ -1,7 +1,5 @@
 # Facebook Login API Documentation
 
-## Facebook Login API Documentation {#facebook-login-api-documentation}
-
 In our case we will use Facebook Login for Web. It enables people to sign into our web page with their Facebook credentials. To implement this, we need to first implement the Facebook SDK for Javascript. You don't have to download anything, just simply include a piece of regular JavaScript in the HTML that will load the SDK into your pages.
 
 The following snippet of code will give the basic version of the SDK where the options are set to their most common defaults.
