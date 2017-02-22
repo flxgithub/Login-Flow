@@ -12,8 +12,6 @@ But before we start implementing this, we'll need to create a Facebook app since
 
 ![](/assets/app.PNG)
 
-
-
 4.Once you have created, you will see information about your newly created Facebook App with the app Id attached it. The app Id is important as it is required to implement the login.
 
 ![](/assets/appid.PNG)
