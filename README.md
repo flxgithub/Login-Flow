@@ -15,13 +15,17 @@ This is because there is no one in this world that will use a smart phone withou
   * [Usecase](/basics/usecase.md)
 * [Advanced](/advanced.md)
 * [Reference](/reference.md)
-  * [Facebook API](/reference/facebook-api.md)
+  * [Facebook API](/reference/facebook.md)
   * [Google API](/reference/google-api.md)
   * [Wechat API](/reference/wechat-api.md)
   * [Weibo API](/reference/weibo-api.md)
 * [Recipes](/recipes.md)
 * [Appendix](/appendix.md)
 * [Troubleshooting](/troubleshooting.md)
+
+{% method %}
+
+{%endmethod%}
 
 
 
