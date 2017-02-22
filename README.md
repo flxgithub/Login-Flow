@@ -23,9 +23,6 @@ This is because there is no one in this world that will use a smart phone withou
 * [Appendix](/appendix.md)
 * [Troubleshooting](/troubleshooting.md)
 
-{% method %}
-
-{%endmethod%}
 
 
 
