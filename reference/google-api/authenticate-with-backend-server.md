@@ -70,7 +70,7 @@ If the token is properly signed and the `iss` and `exp` claims have the expected
 
 ```json
 {
- // These six fields are included in all Google ID Tokens.
+ "_comment":"These six fields are included in all Google ID Tokens."
  
  "iss": "https://accounts.google.com",
  "sub": "110169484474386276334",
@@ -79,8 +79,7 @@ If the token is properly signed and the `iss` and `exp` claims have the expected
  "iat": "1433978353",
  "exp": "1433981953",
 
- // These seven fields are only included when the user has granted the "profile" and
- // "email" OAuth scopes to the application.
+ "_comment2": "These seven fields are only included when the user has granted the 'profile' and 'email' OAuth scopes to the application.
  
  "email": "testuser@gmail.com",
  "email_verified": "true",
@@ -92,9 +91,4 @@ If the token is properly signed and the `iss` and `exp` claims have the expected
 }
 ```
 
-{% method %}
-
-
-
-{% endmethod%}
 
