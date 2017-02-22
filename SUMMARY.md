@@ -10,8 +10,8 @@
 * [Reference\(参考\)](reference.md)
   * [Facebook API](reference/facebook-api.md)
   * [Google API](reference/google-api.md)
-  * Wechat API
-  * Weibo API
+  * [Wechat API](reference/wechat-api.md)
+  * [Weibo API](reference/weibo-api.md)
 * [Recipes\(最佳实践\)](recipes.md)
 * [Appendix\(附录\)](appendix.md)
 * [Troubleshooting\(故障处理\)](troubleshooting.md)
