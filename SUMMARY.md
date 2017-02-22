@@ -12,7 +12,7 @@
   * [Wechat API](reference/wechat-api.md)
   * [Weibo API](reference/weibo-api.md)
   * [Facebook](reference/facebook.md)
-    * Implementation
+    * [Implementation](reference/facebook/implementation.md)
 * [Recipes\(最佳实践\)](recipes.md)
 * [Appendix\(附录\)](appendix.md)
 * [Troubleshooting\(故障处理\)](troubleshooting.md)

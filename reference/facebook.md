@@ -17,11 +17,7 @@ But before we start implementing this, we'll need to create a Facebook app since
 
 ![](/assets/appid.PNG)
 
-
-
-
-
-
+[Now let's start implementing Facebook login!](/reference/facebook/implementation.md)
 
 {% endmethod %}
 
