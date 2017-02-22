@@ -6,6 +6,7 @@ Before integrating Google Sign-In into the website, it's a must that we  have a 
 
 1. Go to the [Google API Console](https://console.developers.google.com/projectselector/apis/library).
 2. From the project drop-down, select an existing project, or create a new one by selecting the **Create a new project.**
+![](/assets/googlecreateproject.PNG)
 
    1. **Note: Use a single project to hold all platform instances of your app \(Android, iOS, web, etc.\), each with a different Client ID**.
 
@@ -33,8 +34,6 @@ Before integrating Google Sign-In into the website, it's a must that we  have a 
 6. From the resulting **OAuth client dialog box**, copy the **Client ID.** The Client ID lets the app access enabled Google APIs.
 
 Now we can proceed to adding Google Sign-In to the website. [Add Google Sign-In](/reference/google-api/implementation.md)
-
-
 
 
 
