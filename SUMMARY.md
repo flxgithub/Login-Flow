@@ -10,6 +10,7 @@
 * [Reference\(参考\)](reference.md)
   * [Google API](reference/google-api.md)
     * [Implementation](reference/google-api/implementation.md)
+    * [Authenticate with backend server](reference/google-api/authenticate-with-backend-server.md)
   * [Wechat API](reference/wechat-api.md)
   * [Weibo API](reference/weibo-api.md)
   * [Facebook](reference/facebook.md)
