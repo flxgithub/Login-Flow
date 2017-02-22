@@ -13,6 +13,7 @@
   * [Weibo API](reference/weibo-api.md)
   * [Facebook](reference/facebook.md)
     * [Implementation](reference/facebook/implementation.md)
+    * [Full Code Sample](reference/facebook/full-code-sample.md)
 * [Recipes\(最佳实践\)](recipes.md)
 * [Appendix\(附录\)](appendix.md)
 * [Troubleshooting\(故障处理\)](troubleshooting.md)
