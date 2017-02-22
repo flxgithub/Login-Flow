@@ -19,7 +19,7 @@ Before integrating Google Sign-In into the website, it's a must that we  have a 
 
 5. Under **Application type**, select **Web application**. Register the origins from which your app is allowed to access the Google APIs, as follows. An origin is a unique combination of protocol, hostname, and port.
 
-   1. In the **Authorized JavaScript origins **field, enter the origin for the app. Multiple origins can be entered for the app to run on different protocols, domains, or subdomains. **Wildcards is extremely prohibited. **In the example below, the second URL could be a production URL.
+   1. In the **Authorized JavaScript origins** field, enter the origin for the app. Multiple origins can be entered for the app to run on different protocols, domains, or subdomains. **Wildcards is extremely prohibited.** In the example below, the second URL could be a production URL.
 
    2. ```js
       http://localhost:8080
