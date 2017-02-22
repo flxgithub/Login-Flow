@@ -15,7 +15,7 @@ Before integrating Google Sign-In into the website, it's a must that we  have a 
 
    1. Choose an **Email Address**,** **specify a **Product Name**, and press **Save**.
 
-4. In the **Credentials** tab, select the **New credentials **drop-down list, and choose **OAuth client ID.**
+4. In the **Credentials** tab, select the **New credentials  **drop-down list, and choose **OAuth client ID.**
 
 5. Under **Application type, **select **Web application. **Register the origins from which your app is allowed to access the Google APIs, as follows. An origin is a unique combination of protocol, hostname, and port.
 
