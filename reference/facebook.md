@@ -1,4 +1,4 @@
-{% method %}
+
 
 # Facebook Login API Documentation
 
@@ -19,5 +19,5 @@ But before we start implementing this, we'll need to create a Facebook app since
 
 [Now let's start implementing Facebook login!](/reference/facebook/implementation.md)
 
-{% endmethod %}
+
 
