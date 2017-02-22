@@ -26,7 +26,7 @@ Before integrating Google Sign-In into the website, it's a must that we  have a 
       https://myproductionurl.example.com
       ```
 
-      ii. The **Authorized redirect URI **field does not require a value. Redirect URIs are not used with JavaScript APIs.
+      ii. The **Authorized redirect URI** field does not require a value. Redirect URIs are not used with JavaScript APIs.
 
    3. Press the **Create** button.
 
@@ -36,4 +36,9 @@ Now we can proceed to adding Google Sign-In to the website. [Add Google Sign-In]
 
 
 
+{%method%}
+
+
+
+{% endmethod %}
 
