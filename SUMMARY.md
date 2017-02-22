@@ -9,6 +9,7 @@
 * [Advanced\(\(进阶篇\)](advanced.md)
 * [Reference\(参考\)](reference.md)
   * [Google API](reference/google-api.md)
+    * [Implementation](reference/google-api/implementation.md)
   * [Wechat API](reference/wechat-api.md)
   * [Weibo API](reference/weibo-api.md)
   * [Facebook](reference/facebook.md)

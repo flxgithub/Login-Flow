@@ -1,3 +1,5 @@
+{% method %}
+
 # Google API Documentation
 
 Before integrating Google Sign-In into the website, it's a must that we  have a Google API Console project. In the project, you create a client ID, which you need to call the sign-in API.
@@ -28,13 +30,10 @@ Before integrating Google Sign-In into the website, it's a must that we  have a 
 
       ii. The **Authorized redirect URI **field does not require a value. Redirect URIs are not used with JavaScript APIs.
 
-   3. Press the **Create **button.
+   3. Press the **Create** button.
 
-6. From the resulting **OAuth client dialog box**, copy the **Client ID. **The Client ID lets the app access enabled Google APIs.
+6. From the resulting **OAuth client dialog box**, copy the **Client ID.** The Client ID lets the app access enabled Google APIs.
 
-Now we can proceed to adding Google Sign-In to the website. [Add Google Sign-In](https://developers.google.com/identity/sign-in/web/sign-in)
-
-
-
-
+Now we can proceed to adding Google Sign-In to the website. [Add Google Sign-In](/reference/google-api/implementation.md)
+{% endmethod %}
 
