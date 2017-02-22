@@ -10,10 +10,11 @@ But before we start implementing this, we'll need to create a Facebook app since
 2. Then, **click** on the **Add a New APP** button.
 3. After that, fill in necessary information and click onto the **Create App ID** button.
 
-![](/assets/app.PNG)  
+![](/assets/app.PNG)
 
 
-4. Once you have created, you will see information about your newly created Facebook App with the app Id attached it. The app Id is important as it is required to implement the login.
+
+4.Once you have created, you will see information about your newly created Facebook App with the app Id attached it. The app Id is important as it is required to implement the login.
 
 ![](/assets/appid.PNG)
 
