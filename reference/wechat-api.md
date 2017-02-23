@@ -6,12 +6,11 @@ WeChat Login for Web Apps is based on the OAuth 2.0 protocol. To use it, you mus
 
 **How to register a developer account?**
 
-- **China-market Official Account** [Register here!](https://mp.weixin.qq.com/cgi-bin/loginpage?t=wxm2-login&lang=zh_CN)  
+* **China-market Official Account** [Register here!](https://mp.weixin.qq.com/cgi-bin/loginpage?t=wxm2-login&lang=zh_CN)  
 
 **NOTE: Registering an account on this system will require a registered Mainland Chinese legal entity. The specific credentials and paperwork required depends on the type of entity the account will be associated with. Accounts can also be registered to individuals.**
 
-- **International-market Official Account**   
-   [Register here!](http://apply.wechat.com/)
+* **International-market Official Account** [Register here!](http://apply.wechat.com/)
 
 Once registered, you should get an **AppID** and **AppSecret** for your app by submitting your app on the portal. After your application has been approved, you can start using this API!
 
@@ -32,6 +31,7 @@ Hence, the steps to implement WeChat in your Web Apps are:
 [Step 2: Passing the code to get the access token](/reference/wechat-api/step-2-passing-the-code-to-get-the-access_token.md).
 
 [Step 3: Using your access token](/reference/wechat-api/step-3-using-your-access_token.md).
+
 
 
 
