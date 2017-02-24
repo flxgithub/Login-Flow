@@ -1,6 +1,4 @@
 # Login FlowChart
 
-![](/assets/Login Flow v1.png)
-
-
+![](/assets/Login Flow v2.png)
 
